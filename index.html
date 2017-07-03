@@ -3,25 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <title>Comigo</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- css -->
+    <link href="styles/main.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <header>
       <img src="assets/logo/comigo-logo-black.png" alt="Comigo logo" width="140" height="26">
 
-      <nav>
-        <ul>
+      <nav class="top-nav">
+        <ul class="top-nav-list">
           <li>
             <a href="#">Home</a>
           </li>
-          <li>
+          <li class="has-sub-nav">
             <a href="#">Our Solutions</a>
-            <ul>
+            <ul class="secondary-nav-list">
               <li>
                 <a href="#">EI cloud</a>
               </li>
-              <li>
+              <li class="has-sub-nav">
                 <a href="#">EI middleware</a>
-                <ul>
+                <ul class="secondary-nav-list">
                   <li>
                     <a href="#">Android</a>
                   </li>
@@ -30,9 +34,9 @@
                   </li>
                 </ul>
               </li>
-              <li>
+              <li class="has-sub-nav">
                 <a href="#">ANDROID STB</a>
-                <ul>
+                <ul class="secondary-nav-list">
                   <li>
                     <a href="#">EIX</a>
                   </li>
@@ -46,9 +50,9 @@
           <li>
             <a href="#">Partners</a>
           </li>
-          <li>
+          <li class="has-sub-nav">
             <a href="#">Industry Insights</a>
-            <ul>
+            <ul class="secondary-nav-list">
               <li>
                 <a href="#">Media room</a>
               </li>
@@ -238,14 +242,14 @@
     </main>
 
     <footer>
-      <div>
-        <ul>
+      <div class="footer-main">
+        <ul class="footer-nav-list">
           <li>
             <a href="#">Home</a>
           </li>
           <li>
             <a href="#">Our Solutions</a>
-            <ul>
+            <ul class="footer-secondary-nav">
               <li>
                 <a href="#">EI Cloud</a>
               </li>
@@ -262,7 +266,7 @@
           </li>
           <li>
             <a href="#">Industry Insights</a>
-            <ul>
+            <ul class="footer-secondary-nav">
               <li>
                 <a href="#">media room</a>
               </li>
@@ -282,12 +286,12 @@
           </li>
         </ul>
 
-        <img src="assets/logo/comigo-logo-black.png" alt="Comigo logo" width="140" height="26">
+        <img src="assets/logo/comigo-logo-white.png" alt="Comigo logo" width="140" height="26">
       </div>
 
-      <div>
-        <ul>
-          <li>All rights reserved Comigo &copy; 2016</li>
+      <div class="footer-bottom">
+        <ul class="footer-page-info-list">
+          <li><p>All rights reserved Comigo &copy; 2016<p></li>
           <li>
             <a href="#">Terms of Use</a>
           </li>
@@ -298,8 +302,8 @@
             <a href="#">Privacy Policy</a>
           </li>
         </ul>
-        <address>Developed by:<a href="#">FATLADY</a></address>
-        <ul>
+        <address>Developed by: <a href="#">sl3vi</a></address>
+        <ul class="footer-social-network-list">
           <li>
             <a href="http://facebook.com">facebook</a>
           </li>

@@ -1,0 +1,86 @@
+/*
+  General
+*/
+
+*:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+  Header
+*/
+.top-nav-list a {
+  color: black;
+}
+
+.top-nav-list > li > a:hover,
+.top-nav-list > li > a:focus {
+  color: #e74c3c;
+}
+
+.has-sub-nav .secondary-nav-list {
+  display: none;
+}
+
+.has-sub-nav:hover > .secondary-nav-list,
+.has-sub-nav:focus > .secondary-nav-list {
+  display: block;
+}
+
+.secondary-nav-list a:hover,
+.secondary-nav-list a:focus {
+  background-color: #e74c3c;
+  color: white;
+}
+
+/*
+  Footer - first div
+*/
+.footer-main {
+  background-color: #343434;
+}
+
+.footer-nav-list > li > a {
+  color: white;
+}
+
+.footer-secondary-nav a {
+  color: #999999;
+}
+
+.footer-secondary-nav a:hover,
+.footer-secondary-nav a:focus {
+  color: red;
+}
+
+/*
+  Footer - second div
+ */
+.footer-bottom {
+  background-color: black;
+  color: #999999;
+}
+
+.footer-bottom a {
+  color: inherit;
+}
+
+.footer-bottom a:hover,
+.footer-bottom a:focus
+{
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .top-nav {
+    display: none;
+  }
+}
